@@ -1,0 +1,27 @@
+
+.merci {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("../../assets/images/merci1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        line-height: 100%;
+        font-size: 10vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9000;
+    }
+
+    .sagesse {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+}

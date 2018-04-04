@@ -1,0 +1,48 @@
+:host {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: pink;
+    z-index: 9000;
+    width: 100%;
+    height: 100px;
+    opacity: 0.5;
+    box-shadow: 0px 15px 10px -15px #111;    
+
+
+    ul {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        align-items: stretch; /* Default */
+        justify-content: space-around;
+        width: 100%;
+        background: #cacaca;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+    }
+
+    li {
+        display: block;
+        flex: 0 1 auto; /* Default */
+        list-style-type: none;
+        background: #fafafa;
+        flex-grow: 1;
+        margin:0 4px;
+        
+        &:first-child { 
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+
+}
